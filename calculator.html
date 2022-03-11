@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/calculator.css">
+    <title>Donice' calculator</title>
+</head>
+<body>
+     <header>
+          <h1>ARITHMETRIC</h1>
+          <h3>CALCULATOR</h3>
+     </header>
+     
+     <div class="calculator-container">
+          <div class="calculator dark">
+
+               <!-- Theme changer button -->
+               <div class="theme-changer active">
+                    <i class="theme-changer-icon"></i>
+               </div>
+               <!-- ......................-->
+
+               <div class="display-screen">
+                    <div id="display"></div>
+               </div>
+
+            <!-- calculator Buttons -->
+            <div class="buttons">
+                <table>
+                    <tr>
+                        <td><button class="operator-button" id="clear">C</button></td>
+                        <td><button class="operator-button" id="/">&divide;</button></td>
+                        <td><button class="operator-button" id="*">&times;</button></td>
+                        <td><button class="operator-button" id="backspace">CLR</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="number-button" id="7">7</button></td>
+                        <td><button class="number-button" id="8">8</button></td>
+                        <td><button class="number-button" id="9">9</button></td>
+                        <td><button class="operator-button" id="-">-</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="number-button" id="4">4</button></td>
+                        <td><button class="number-button" id="5">5</button></td>
+                        <td><button class="number-button" id="6">6</button></td>
+                        <td><button class="number-button" id="+">+</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="number-button" id="1">1</button></td>
+                        <td><button class="number-button" id="2">2</button></td>
+                        <td><button class="number-button" id="3">3</button></td>
+                        <td rowspan="2"><button class="equal-button" id="equal">=</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="operator-button" id="(">(</button></td>
+                        <td><button class="number-button" id="0">0</button></td>
+                        <td><button class="operator-button" id=")">)</button></td>
+                    </tr>
+                </table>
+            </div>
+
+          </div>
+    </div>
+    <script src="/calculator.js"></script>
+    <footer>
+          <span>Inspired by my friends and partner in progress:<br> 
+               <strong>Priase, Isaiah, Tejiri & Anu</strong><br>
+               <span>&#169 drdonice 2022</span>
+          </span>
+    </footer>
+</body>
+</html>
